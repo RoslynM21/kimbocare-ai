@@ -1,0 +1,27 @@
+{
+  "name": "kimbocare/ai",
+  "type": "library",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "Kimbocare\\Ai\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "txyxter",
+      "email": "ramses.tchamou@kimbocare.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.9",
+    "openai-php/laravel": "^0.10.2",
+    "deeplcom/deepl-php": "^1.9"
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}
